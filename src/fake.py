@@ -1,8 +1,13 @@
+def decorate(func):
+    def dec(*args, **kwargs):
+        return func(*args, **kwargs)
+    return dec
+
 
 def checkOutput():
     return []
 
-
+@decorate
 def search():
     return 5
 
