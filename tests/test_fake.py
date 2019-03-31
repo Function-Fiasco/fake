@@ -1,5 +1,5 @@
-from src import fake
-from src.fake import classCheck2
+from fake.src import fake
+from fake.src.fake import classCheck2
 import sys
 
 
