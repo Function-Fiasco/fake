@@ -48,9 +48,6 @@ def aaaaa():
 
 def main():
     print("hello")
-    # print(size.__call__._fields)
-    print(dir(size))
-    print(size.__subclasshook__)
 
 class classCheck():
     def hello(self):
